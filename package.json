@@ -3,6 +3,8 @@
     "displayName": "TT2",
     "description": "Template Toolkit Syntax Highlighting",
     "version": "0.0.1",
+    "publisher": "abw",
+    "repository": "https://github.com/abw/vscode-tt2-syntax",
     "engines": {
         "vscode": "^1.50.0"
     },
