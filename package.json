@@ -1,0 +1,25 @@
+{
+    "name": "tt2",
+    "displayName": "TT2",
+    "description": "Template Toolkit Syntax Highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tt2",
+            "aliases": ["HTML (Template Toolkit)", "TT2"],
+            "extensions": [".tt .ttml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tt2",
+            "scopeName": "text.html.tt",
+            "path": "./syntaxes/tt.tmLanguage"
+        }]
+    }
+}
