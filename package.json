@@ -2,7 +2,7 @@
     "name": "tt2",
     "displayName": "TT2",
     "description": "Template Toolkit Syntax Highlighting",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "abw",
     "repository": "https://github.com/abw/vscode-tt2-syntax",
     "engines": {

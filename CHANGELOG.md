@@ -12,3 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.2] - 2020-11-02
 
 - Added snippets and updated README.
+
+## [0.0.3] - 2020-11-02
+
+- Added the missing PROCESS keyword
