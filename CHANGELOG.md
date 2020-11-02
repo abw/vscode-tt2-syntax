@@ -8,3 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release - ported from the TextMate language for TT2
   See: https://github.com/textmate/perl-template-toolkit.tmbundle
+
+## [0.0.2] - 2020-11-02
+
+- Added snippets and updated README.

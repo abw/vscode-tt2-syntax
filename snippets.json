@@ -1,0 +1,124 @@
+{
+    "TT IF/END Directive": {
+        "prefix": "ttif",
+        "body": [
+            "[% IF ${1:condition} %]",
+            "${2:content}",
+            "[% END %]"
+        ],
+        "description": "IF / END directive using inline tags"
+    },
+    "TT IF/ELSE/END Directive": {
+        "prefix": "ttifel",
+        "body": [
+            "[% IF ${1:condition} %]",
+            "${2:content}",
+            "[% ELSE %]",
+            "${3:content}",
+            "[% END %]"
+        ],
+        "description": "IF / ELSE / END directive using inline tags"
+    },
+    "TT FOR/END Directive": {
+        "prefix": "ttfor",
+        "body": [
+            "[% FOR ${1:var} IN ${2:list} %]",
+            "${3:content}",
+            "[% END %]"
+        ],
+        "description": "FOR / END directive using inline tags"
+    },
+    "TT INCLUDE Directive": {
+        "prefix": "ttin",
+        "body": [
+            "[% INCLUDE ${1:file} %]"
+        ],
+        "description": "INCLUDE directive using inline tag"
+    },
+    "TT PROCESS Directive": {
+        "prefix": "ttpr",
+        "body": [
+            "[% PROCESS ${1:file} %]"
+        ],
+        "description": "PROCESS directive using inline tag"
+    },
+    "TT WRAPPER Directive": {
+        "prefix": "ttwr",
+        "body": [
+            "[% WRAPPER ${1:file} %]",
+            "${2:content}",
+            "[% END %]"
+        ],
+        "description": "WRAPPER directive using inline tag"
+    },
+    "TT BLOCK Directive": {
+        "prefix": "ttbl",
+        "body": [
+            "[% BLOCK ${1:name} %]",
+            "${2:content}",
+            "[% END %]"
+        ],
+        "description": "BLOCK directive using inline tag"
+    },
+    "TT Outline if/end Directive": {
+        "prefix": "ttifo",
+        "body": [
+            "%% if ${1:condition}",
+            "${2:content}",
+            "%% end"
+        ],
+        "description": "if / end directive using outline tags"
+    },
+    "TT Outline if/else/end Directive": {
+        "prefix": "ttifelo",
+        "body": [
+            "%% if ${1:condition}",
+            "${2:content}",
+            "%% else",
+            "${3:content}",
+            "%% end"
+        ],
+        "description": "if / else / end directive using outline tags"
+    },
+    "TT Outline for/end Directive": {
+        "prefix": "ttforo",
+        "body": [
+            "%% for ${1:var} in ${2:list}",
+            "${3:content}",
+            "%% end"
+        ],
+        "description": "for / end directive using outline tags"
+    },
+    "TT Outline include Directive": {
+        "prefix": "ttino",
+        "body": [
+            "%% include ${1:file}"
+        ],
+        "description": "include directive using outline tag"
+    },
+    "TT Outline process Directive": {
+        "prefix": "ttpro",
+        "body": [
+            "%% process ${1:file}"
+        ],
+        "description": "process directive using outline tag"
+    },
+    "TT Outline wrapper Directive": {
+        "prefix": "ttwro",
+        "body": [
+            "%% wrapper ${1:file}",
+            "${2:content}",
+            "%% end"
+        ],
+        "description": "wrapper directive using outline tag"
+    },
+    "TT Outline block Directive": {
+        "prefix": "ttblo",
+        "body": [
+            "%% block ${1:name}",
+            "${2:content}",
+            "%% end"
+        ],
+        "description": "block directive using outline tag"
+    }
+}

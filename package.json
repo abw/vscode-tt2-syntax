@@ -2,7 +2,7 @@
     "name": "tt2",
     "displayName": "TT2",
     "description": "Template Toolkit Syntax Highlighting",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "abw",
     "repository": "https://github.com/abw/vscode-tt2-syntax",
     "engines": {
@@ -22,6 +22,12 @@
             "language": "tt2",
             "scopeName": "text.html.tt",
             "path": "./syntaxes/tt.tmLanguage"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "tt2",
+                "path": "./snippets.json"
+            }
+        ]
     }
 }
